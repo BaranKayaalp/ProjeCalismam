@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="kas.css" />
+  <title>CLS Movies</title>
+</head>
+
+<body>
+
+  <!--! navbar start  -->
+  <div class="navbar">
+    <div class="navbar-wrapper">
+      <div class="logo-wrapper">
+        <h1 class="logo">LOGO</h1>
+      </div>
+      <div class="menu-container">
+        <ul class="menu-list">
+          <li class="menu-list-items active">Ana Sayfa</li>
+          <li class="menu-list-items">Filmler</li>
+          <li class="menu-list-items">Diziler</li>
+          <li class="menu-list-items">Listem</li>
+          <li class="menu-list-items">Popüler</li>
+        </ul>
+      </div>
+      <div class="profile-container">
+        <img class="profile-picture" src="Resimler/avatar.png" alt="" />
+        <div class="profile-text-container">
+          <span class="profile-text">Hesabım</span>
+          <i class="bi bi-caret-down-fill icon-class"></i>
+        </div>
+        <div class="toggle">
+          <i class="bi bi-moon-fill toggle-icon"></i>
+          <i class="bi bi-brightness-high-fill toggle-icon"></i>
+          <div class="toggle-ball"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--! navbar end  -->
+
+  <!--! sidebar start  -->
+  <div class="sidebar">
+    <i class="bi bi-search"></i>
+    <i class="bi bi-house-door-fill"></i>
+    <i class="bi bi-people-fill"></i>
+    <i class="bi bi-bookmarks-fill"></i>
+    <i class="bi bi-hourglass-top"></i>
+    <i class="bi bi-cart-fill"></i>
+    <i class="bi bi-gear-fill"></i>
+  </div>
+  <!--! sidebar end  -->
+
+  <!--! content start  -->
+  <div class="container">
+    <!-- featured content start -->
+    <div class="content-wrapper">
+      <div class="featured-content">
+        <img class="featured-tittle" src="Resimler/johnwicktittle.png" alt="" />
+        <p class="featured-desc">
+          John Wick, emekliye ayrılmış bir tetikçidir.
+          Emekliliğinin tadını çıkarırken karısının yakalandığı amansız
+          hastalıkla hayatı altüst olur. Karısından kendisine kalan
+          en değerli varlığı ve can yoldaşı köpeğidir. Ancak evine d
+          alan üç gangster onu da öldürür.
+          Gansterlerden biri, mafya babası Viggo Tasarov'un oğlu
+          Josef Tasarov'dur ve John'un daha önce birlikte çalıştığı bir
+          adamdır. Artık kaybedecek hiçbir şeyi de kalmayan John Wick'i
+          n tek istediği intikamdır ve New York sokaklarında düşmanlarıy
+          la nefes kesen bir kovalamacanın içine girer.
+          Yönetmenliğini David Leitch ve Chad Stahelski ikilisinin ü
+          stlendiği filmin
+          başrolünde Keanu Reevus yer alıyor.
+        </p>
+        <div class="featured-buttons">
+          <button class="play-button">
+            <i class="bi bi-play-circle"></i>
+            Oynat
+          </button>
+          <button class="info-button">
+            <i class="bi bi-info-circle"></i>
+            Daha Fazla Bilgi
+          </button>
+        </div>
+      </div>
+      <div class="movie-list-filter">
+        <select>
+          <option> Aksiyon</option>
+          <option> Animasyon</option>
+          <option> Belgesel</option>
+          <option> Komedi</option>
+          <option> Bilim Kurgu</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Content Bitiş -->
+
+    <!-- Movie List Başlangıç -->
+
+    <div class="movie-list-container">
+      <h1 class="movie-list-tittle">Popüler</h1>
+      <div class="movie-list-wrapper">
+        <ul class="movie-list">
+          <li class="movie-item">
+            <img src="Resimler/godfather.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">GodFather</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/johnwick.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">John Wick</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/peakyblinders.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Peaky Blinders</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="movie-item">
+            <img src="Resimler/sherlock.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Sherlock</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/personof.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Person Of Interest</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+          <li class="movie-item">
+            <img src="Resimler/harrypotter.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Harry Potter</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+
+
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+
+    <div class="movie-list-container">
+      <h1 class="movie-list-tittle">Gündemdekiler</h1>
+      <div class="movie-list-wrapper">
+        <ul class="movie-list">
+          <li class="movie-item">
+            <img src="Resimler/sıcakkafa.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Sıcak Kafa</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/harrypotter.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Harry Potter</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/supernatural.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Supernatural</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="movie-item">
+            <img src="Resimler/breakingbad.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Breaking Bad</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/fringe.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Fringe</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+
+    <div class="movie-list-container">
+      <h1 class="movie-list-tittle">Önerilenler</h1>
+      <div class="movie-list-wrapper">
+        <ul class="movie-list">
+          <li class="movie-item">
+            <img src="Resimler/johnwick.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">John Wick</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/sahsiyet.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Şahsiyet</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/peakyblinders.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Peaky Blinders</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="movie-item">
+            <img src="Resimler/sherlock.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">Sherlock</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+          </li>
+          <li class="movie-item">
+            <img src="Resimler/godfather.jpg" alt="" class="movie-item-img">
+            <div class="movie-item-info">
+              <span class="movie-item-tittle">GodFather</span>
+              <div class="movie-item-buttons">
+                <i class="bi bi-play-circle-fill"></i>
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <i class="bi bi-hand-thumbs-down-fill"></i>
+                <i class="bi bi-plus-circle-fill"></i>
+              </div>
+            </div>
+          </li>
+
+
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+
+
+    <!-- Movie List Bitiş -->
+
+    <!-- Hakkında Başlangıç -->
+
+  <footer class="footer">
+    <div class="row">
+      <div class="col d-flex">
+        <h4>Biz Kimiz?</h4>
+        <a href="">Hakkımızda</a>
+        <a href="">İletişim</a>
+        <a href="">S.S.S</a>
+        <a href="">Tüm Seriler</a>
+      </div>
+      <div class="col d-flex">
+        <h4>Yardımcı Linkler</h4>
+        <a href=""> Abone ol</a>
+        <a href="">Müşteri Hizmetleri</a>
+      </div>
+      <div class="col d-flex">
+        <span><box-icon type='logo' name='facebook'></box-icon></span>
+        <span><box-icon type='logo' name='instagram'></box-icon></span>
+        <span><box-icon type='logo' name='whatsapp'></box-icon></span>
+        <span><box-icon type='logo' name='twitter'></box-icon></span>
+        <span><box-icon type='logo' name='pinterest'></box-icon></span>
+      </div>
+    </div>
+  </footer>
+
+<script src="sinir.js"> </script>
+</body>
+
+</html>
